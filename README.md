@@ -1,7 +1,5 @@
 # Capstone Three: Predicting Customer Conversion in Digital Marketing
 
-**Author:** Ryan Lange · Springboard Data Science Career Track · July 2026
-
 ## Problem Statement
 
 Which customers are most likely to convert from a digital marketing campaign, and which demographic, behavioral, and campaign-level factors most strongly drive that conversion? The goal is a model that, given a customer's profile and the campaign targeting them, predicts conversion and surfaces the levers marketers can actually pull.
@@ -63,9 +61,3 @@ Early engagement behavior — click-through rate, time on site, email interactio
 - `ConversionRate` and `ClickThroughRate` carry some leakage risk as near-deterministic proxies for the target.
 - No timeframe field, limiting temporal analysis (e.g., campaign fatigue).
 - Future iterations could try XGBoost/LightGBM with a proper hyperparameter search, SHAP-based feature attribution, and cost-sensitive thresholds tied to real marketing spend.
-
-## Deliverables
-
-- 📄 [Project Report](./Capstone_Final_Report.pdf)
-- 📊 [Slide Deck](./Capstone_Three_Slide_Deck.pptx)
-- 📈 [Model Metrics](./model_metrics.csv)

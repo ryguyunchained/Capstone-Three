@@ -1,5 +1,7 @@
 # Capstone Three: Predicting Customer Conversion in Digital Marketing
 
+**Author:** Ryan Lange · Springboard Data Science Career Track · July 2026
+
 ## Problem Statement
 
 Which customers are most likely to convert from a digital marketing campaign, and which demographic, behavioral, and campaign-level factors most strongly drive that conversion? The goal is a model that, given a customer's profile and the campaign targeting them, predicts conversion and surfaces the levers marketers can actually pull.
@@ -24,8 +26,8 @@ Capstone-Three/
 │   └── EDA.ipynb
 ├── Modeling/                # Feature engineering, imbalance handling, final models
 │   └── Modeling.ipynb
-├── model_metrics.json      # Full metrics for every model trained
-├── Capstone_Three_Project_Report.docx
+├── model_metrics.csv       # Features, parameters, hyperparameters & performance for every model
+├── Capstone_Final_Report.pdf
 └── Capstone_Three_Slide_Deck.pptx
 ```
 
@@ -49,7 +51,7 @@ Capstone-Three/
 
 **Gradient Boosting** was selected as the final model — it led on every key metric, particularly class-0 F1, the harder and more valuable non-converter class to identify. That said, the gain over the class-weighted logistic regression baseline was modest (~0.006 ROC-AUC), a limitation this project documents honestly rather than overstating.
 
-Full metrics for every model, including precision/recall by class, are in [`model_metrics.json`](./model_metrics.json).
+Full metrics for every model — features used, class-imbalance handling, hyperparameters, and precision/recall by class — are in [`model_metrics.csv`](./model_metrics.csv).
 
 ## Key Takeaway
 
@@ -61,3 +63,9 @@ Early engagement behavior — click-through rate, time on site, email interactio
 - `ConversionRate` and `ClickThroughRate` carry some leakage risk as near-deterministic proxies for the target.
 - No timeframe field, limiting temporal analysis (e.g., campaign fatigue).
 - Future iterations could try XGBoost/LightGBM with a proper hyperparameter search, SHAP-based feature attribution, and cost-sensitive thresholds tied to real marketing spend.
+
+## Deliverables
+
+- 📄 [Project Report](./Capstone_Final_Report.pdf)
+- 📊 [Slide Deck](./Capstone_Three_Slide_Deck.pptx)
+- 📈 [Model Metrics](./model_metrics.csv)

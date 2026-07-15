@@ -1,7 +1,5 @@
 # Capstone Three: Predicting Customer Conversion in Digital Marketing
 
-[Test Link](https://www.foremost.com)
-
 ## Problem Statement
 
 Which customers are most likely to convert from a digital marketing campaign, and which demographic, behavioral, and campaign-level factors most strongly drive that conversion? The goal is a model that, given a customer's profile and the campaign targeting them, predicts conversion and surfaces the levers marketers can actually pull.

@@ -1,6 +1,6 @@
 # Capstone Three: Predicting Customer Conversion in Digital Marketing
 
-**Author:** Ryan Lange · Springboard Data Science Career Track · July 2026
+[Test Link](https://www.foremost.com)
 
 ## Problem Statement
 
@@ -63,9 +63,3 @@ Early engagement behavior — click-through rate, time on site, email interactio
 - `ConversionRate` and `ClickThroughRate` carry some leakage risk as near-deterministic proxies for the target.
 - No timeframe field, limiting temporal analysis (e.g., campaign fatigue).
 - Future iterations could try XGBoost/LightGBM with a proper hyperparameter search, SHAP-based feature attribution, and cost-sensitive thresholds tied to real marketing spend.
-
-## Deliverables
-
-- 📄 [Project Report](./Capstone_Three_Project_Report.docx)
-- 📊 [Slide Deck](./Capstone_Three_Slide_Deck.pptx)
-- 📈 [Model Metrics](./model_metrics.json)
